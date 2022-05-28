@@ -331,4 +331,41 @@ package _08다중for;
 
 
 
-// 문제 10
+//// 문제 10
+//public class Ex_Prg {
+//	public static void main(String[] args) {
+//		int rowCount = 0, columnCount = 0, pageNum = 1, sum = 0;
+//		for (int i = 1; i <= 9; i++) {
+//			for (int j = 1; j <= 9; j++) {
+//				if (i == j) {
+//					continue;
+//				}
+//				for (int k = 1; k <= 9; k++) {
+//					if (j == k) {
+//						continue;
+//					}
+//					System.out.printf("%d%d%d   ", i, j, k);
+//					sum += 1;
+//					rowCount += 1;
+//					if (rowCount == 5) {
+//						System.out.println();
+//						rowCount = 0;
+//						columnCount += 1;
+//					}
+//					if (columnCount == 20) {
+//						System.out.println();
+//						System.out.println(pageNum);
+//						System.out.println();
+//						pageNum += 1;
+//						columnCount = 0;
+//					}
+//				}
+//			}
+//		}
+//		System.out.println();
+//		System.out.println();
+//		System.out.println(pageNum);
+//		System.out.println();
+//		System.out.printf("총 %d개", sum);
+//	}
+//}
