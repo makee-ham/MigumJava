@@ -395,3 +395,29 @@ package _08다중for;
 //		}
 //	}
 //}
+
+
+
+//// C 11
+//import java.util.Scanner;
+//public class Ex_Prg {
+//	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("수를 입력하세요 : ");
+//		int num = sc.nextInt();
+//		System.out.print("결과 => ");
+//		while (true) {
+//			for (int i = 2; i <= num ; i++) {
+//				if (num % i == 0) {
+//					System.out.printf("%d * ", i);
+//					num /= i;
+//					break;
+//				}
+//				if (num == i) {
+//					System.out.println(num);
+//					break;
+//				}
+//			}
+//		}
+//	}
+//}
