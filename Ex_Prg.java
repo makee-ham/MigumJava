@@ -369,3 +369,29 @@ package _08다중for;
 //		System.out.printf("총 %d개", sum);
 //	}
 //}
+
+
+
+//// C 6
+//import java.util.Scanner;
+//public class Ex_Prg {
+//	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("수를 입력하세요 : ");
+//		int n1 = sc.nextInt();
+//		System.out.print("수를 입력하세요 : ");
+//		int n2 = sc.nextInt();
+//		if (n1 > n2) {
+//			int temp = n1;
+//			n1 = n2;
+//			n2 = temp;
+//		}
+//		
+//		for (int i = 1; ; i++) {
+//			if ((n1 * i) % n2 == 0) {
+//				System.out.printf("%d와 %d의 최소공배수는 %d입니다.", n1, n2, n1 * i);
+//				break;
+//			}
+//		}
+//	}
+//}
