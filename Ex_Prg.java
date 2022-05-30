@@ -451,27 +451,54 @@ package _08다중for;
 
 
 
-// C 13
-import java.util.Scanner;
-public class Ex_Prg {
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		System.out.print("높이를 입력하세요 : ");
-		int height = sc.nextInt();
-		int iCount = 1, kTemp = 0;
-		for (int i = 0; i < height; i++) {
-			for (int j = height - (i + 1); j > 0; j--) {
-				System.out.print("   ");
-			}
-			for (int k = 1; k <= iCount * 2 - 1; k += 2) {
-				System.out.printf("%d  ", k);
-				kTemp = k;
-			}
-			for (int l = kTemp - 2; l > 0; l -= 2) {
-				System.out.printf("%d  ", l);
-			}
-			System.out.println();
-			iCount += 1;
-		}
-	}
-}
+//// C 13
+//import java.util.Scanner;
+//public class Ex_Prg {
+//	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("높이를 입력하세요 : ");
+//		int height = sc.nextInt();
+//		int iCount = 1, kTemp = 0;
+//		for (int i = 0; i < height; i++) {
+//			for (int j = height - (i + 1); j > 0; j--) {
+//				System.out.print("   ");
+//			}
+//			for (int k = 1; k <= iCount * 2 - 1; k += 2) {
+//				System.out.printf("%d  ", k);
+//				kTemp = k;
+//			}
+//			for (int l = kTemp - 2; l > 0; l -= 2) {
+//				System.out.printf("%d  ", l);
+//			}
+//			System.out.println();
+//			iCount += 1;
+//		}
+//	}
+//}
+
+
+
+//// C 15
+//public class Ex_Prg {
+//	public static void main(String[] args) {
+//		int count = 0;
+//		for (int i = 0; i < 5; i++) {
+//			if (count == 5) {
+//				System.out.println();
+//				count = 0;
+//			}
+//			if (i % 2 == 0) {
+//				for (int j = i * 5 + 1; j <= i * 5 + 5; j++) {
+//					System.out.printf("%d    ", j);
+//					count += 1;
+//				}
+//			}
+//			else {
+//				for (int k = i * 5 + 5; k >= i * 5 + 1; k--) {
+//					System.out.printf("%d    ", k);
+//					count += 1;
+//				}
+//			}
+//		}
+//	}
+//}
