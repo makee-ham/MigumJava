@@ -216,10 +216,31 @@ package _08다중for;
 //// 문제 5
 //public class Ex_Prg {
 //	public static void main(String[] args) {
+//		int vCount = 0;
 //		for (int i = 0; i < 10; i++) {
-//			System.out.printf("%d   ", i + 1);
-//			for (int j = 2; j - 2 < j; j++) {
-//			System.out.printf("%d   ", j);
+//			if ((i + 1) % 3 == 0) {
+//				vCount++;
+//			}
+//			for (int j = i + 1; j < i + 2; j++) {
+//				System.out.printf("%d    ", j);
+//			}
+//			for (int k = (i + 1) * 2; k < (i + 1) * 2 + 1; k++) {
+//				System.out.printf("%d    ", k);
+//			}
+//			for (int l = (i + 1) * 2 - 1; l < (i + 1) * 2; l++) {
+//				System.out.printf("%d    ", l);
+//			}
+//			for (int z = (i + 1) * (i + 1); z < (i + 1) * (i + 1) + 1; z++) {
+//				System.out.printf("%d    ", z);
+//			}
+//			for (int x = 10 - i; x > 9 - i; x--) {
+//				System.out.printf("%d    ", x);
+//			}
+//			for (int c = (i + 1) % 3; c < (i + 1) % 3 + 1; c++) {
+//				System.out.printf("%d    ", c);
+//			}
+//			for (int v = vCount; v < vCount + 1; v++) {
+//				System.out.printf("%d    ", v);
 //			}
 //			System.out.println();
 //		}
